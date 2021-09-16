@@ -236,8 +236,7 @@ or equal to those of the children and the lowest key is in the root node
 ![Alt text](/images/dfsbfs.gif?raw=true "DFS / BFS Traversal")
 
 #### Breadth First Search
-* *Breadth First Search* is a graph traversal algorithm which explores the neighbor nodes first, before moving to the next
-  level neighbors
+* *Breadth First Search* is a graph traversal algorithm which explores the neighbor nodes first, before moving to the next level neighbors
 * Time Complexity: `O(|V| + |E|)`
 
 ![Alt text](/images/dfsbfs.gif?raw=true "DFS / BFS Traversal")
@@ -246,6 +245,9 @@ or equal to those of the children and the lowest key is in the root node
 * *Topological Sort* is the linear ordering of a directed graph's nodes such that for every edge from node u to node v, u
   comes before v in the ordering
 * Time Complexity: `O(|V| + |E|)`
+
+#### Binary Search
+* Let's review binary search a bit. Given a sorted array, binary search works by looking at the middle element of the given array, and based on the value of the middle element,   it decides to discard one half of the array. At each step, we reduce the length of the array to search by half and that is what leads to the logarithmic time complexity of the   algorithm. Usually, we employ the binary search algorithm to determine if an element is in a sorted array. Here, we can tweak the binary search algorithm to find the first and   the last position of a given element.
 
 #### Dijkstra's Algorithm
 * *Dijkstra's Algorithm* is an algorithm for finding the shortest path between nodes in a graph
